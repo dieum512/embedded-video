@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>embed video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="my-nav">
+    <div class="nav-left">
+      <a href="#" class="menu">
+        <!--
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        -->
+        <img src="images/menu.png">
+      </a>
+      <a href="https://www.youtube.com/" class="logo">
+        <img src="images/logo.jpg">
+      </a>
+    </div>
+    <div class="nav-middle">
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+        <img src="images/search.png">
+      </div>
+      <!--<img src="images/voice-search.png" id="mic">-->
+    </div>
+    <div class="nav-right">
+      <a href="#">
+        <img src="images/upload.png">
+      </a>
+      <a href="#">
+        <img src="images/notification.png">
+      </a>
+      <a href="#">
+        <img src="images/dieum.jpg" class="user-icon">
+      </a>
+    </div>
+  </nav>
+  <!--videos part-->
+  <main class="main">
+    <div class="main-wrapper">
+      <section class="main-section">
+        <div class="player">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Contributing to Open Source Part I: The Easy Way</p>
+
+        <div class="video-player-info">
+          <div class="video-player-details">
+            <span>201,389</span>
+            <span>•</span>
+            <span>October 22, 2022</span>
+          </div>
+          <div class="video-player-more">
+            <img src="images/thumb-up.svg" alt="Like" />
+            <span>124K</span>
+            <img src="images/thumb-down1.svg" alt="Dislike" />
+            <span>378</span>
+            <img src="images/share.svg" alt="Share" />
+            <span>SHARE</span>
+            <img src="images/playlist-plus.svg" alt="PlayList" />
+            <span>SAVE</span>
+            <img src="images/dots-horizontal.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="subscribe-to-channel">
+          <div class="img-icon">
+            <img src="images/channel.jpg" alt="Channel" />
+          </div>
+          <div class="subscribe-info">
+            <h4>
+              TeamYouTube [Help]<img
+                src="images/check-circle.svg"
+                alt="Check-Circle"
+              />
+            </h4>
+            <h5>8.4M subscribers</h5>
+            <p>
+              To learn more please visit the YouTube Help Center:
+              <a href="#">https://www.youtube.com/help</a>
+            </p>
+          </div>
+          <div class="subscribe-button">
+            <button type="submit">SUBSCRIBE</button>
+          </div>
+        </div>
+
+        <div class="comment-section">
+          <div class="comments-info">
+            <span class="comments-count">0 Comments</span>
+            <button class="btn-sort-btn">
+              <img src="images/sort-variant.svg" alt="sort by" />
+              <span id="sortby"> SORT BY</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="new-comment">
+          <div class="user-avatar">
+            <img
+              src="images/dieum.jpg"
+              alt="user avatar"
+            />
+          </div>
+          <input
+            class="comment-input"
+            type="text"
+            placeholder="Add a public comment..."
+          />
+        </div>
+
+       
+      </section>
+
+      <div id="empty-div"></div>
+
+      <section class="sidebar">
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=W6NZfCO5SIk&t=5s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/Free Courses to learn JavaScript.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>48:16</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">Learn JavaScript in 1 hour</h3>
+            <div class="thumbnail-channel-name">
+              codewithmoshhamadani
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=UtDpYVf9jKU"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/Full-Stack-Developer.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>10:16</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">What Is a Full Stack Developer & How To Become a Full Stack Developer in 1 Year</h3>
+            <div class="thumbnail-channel-name">
+              fullstackdev
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=W6NZfCO5SIk&t=5s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/sql.jpeg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>3:10:18</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">MySQL Tutorial for Beginners [Full Course]</h3>
+            <div class="thumbnail-channel-name">
+              codewithmoshhamadani
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=f9ip1iSAptQ"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/maxresdefault.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>1:12</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">
+              What is Microverse
+              </h3>
+            <div class="thumbnail-channel-name">
+              microverse
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=Ke90Tje7VS0&t=5s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/react.jpeg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>2:25:26</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">React JS - React Tutorial for Beginners
+            </h3>
+            <div class="thumbnail-channel-name">
+              codewithmoshhamadani
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=t_ispmWmdjY&t=7s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/ruby.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>4:02:50</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">Ruby Programming Language - Full Course
+            </h3>
+            <div class="thumbnail-channel-name">
+              freeCodeCampo.org
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=f9ip1iSAptQ"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/maxresdefault.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>1:12</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">
+              What is Microverse
+              </h3>
+            <div class="thumbnail-channel-name">
+              microverse
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=Ke90Tje7VS0&t=5s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/react.jpeg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>2:25:26</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">React JS - React Tutorial for Beginners
+            </h3>
+            <div class="thumbnail-channel-name">
+              codewithmoshhamadani
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=t_ispmWmdjY&t=7s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/ruby.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>4:02:50</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">Ruby Programming Language - Full Course
+            </h3>
+            <div class="thumbnail-channel-name">
+              freeCodeCampo.org
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=f9ip1iSAptQ"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/maxresdefault.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>1:12</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">
+              What is Microverse
+              </h3>
+            <div class="thumbnail-channel-name">
+              microverse
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=Ke90Tje7VS0&t=5s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/react.jpeg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>2:25:26</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">React JS - React Tutorial for Beginners
+            </h3>
+            <div class="thumbnail-channel-name">
+              codewithmoshhamadani
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+          class="thumbnail"
+          href="https://www.youtube.com/watch?v=t_ispmWmdjY&t=7s"
+          target="_blank"
+        >
+          <div class="thumbnail-img">
+            <img
+              src="images/ruby.jpg"
+              alt="recommendation video"
+            />
+            <div class="duration">
+              <span>4:02:50</span>
+            </div>
+            <div class="thumbnail-img-overlay">
+              <button class="btn">
+                <img src="images/clock.svg" alt="watch later" />
+              </button>
+              <button class="btn">
+                <img src="images/playlist-play.svg" alt="add to queue" />
+              </button>
+            </div>
+          </div>
+          <div class="thumbnail-info">
+            <h3 class="thumbnail-title">Ruby Programming Language - Full Course
+            </h3>
+            <div class="thumbnail-channel-name">
+              freeCodeCampo.org
+              <img src="images/check-circle.svg" alt="verified" />
+            </div>
+            <p class="thumbnail-video-info">1.6M views</p>
+            <!-- <span class="thumbnail-new">New</span> -->
+          </div>
+          <div class="thumbnail-overlay">
+            <button class="btn-add">
+              <img
+                src="images/dots-vertical-thumb.svg"
+                alt="thumbnail options"
+              />
+            </button>
+          </div>
+        </a>
+        <a
+        class="thumbnail"
+        href="https://www.youtube.com/watch?v=W6NZfCO5SIk&t=5s"
+        target="_blank"
+      >
+        <div class="thumbnail-img">
+          <img
+            src="images/Free Courses to learn JavaScript.jpg"
+            alt="recommendation video"
+          />
+          <div class="duration">
+            <span>48:16</span>
+          </div>
+          <div class="thumbnail-img-overlay">
+            <button class="btn">
+              <img src="images/clock.svg" alt="watch later" />
+            </button>
+            <button class="btn">
+              <img src="images/playlist-play.svg" alt="add to queue" />
+            </button>
+          </div>
+        </div>
+        <div class="thumbnail-info">
+          <h3 class="thumbnail-title">Learn JavaScript in 1 hour</h3>
+          <div class="thumbnail-channel-name">
+            codewithmoshhamadani
+            <img src="images/check-circle.svg" alt="verified" />
+          </div>
+          <p class="thumbnail-video-info">1.6M views</p>
+          <!-- <span class="thumbnail-new">New</span> -->
+        </div>
+        <div class="thumbnail-overlay">
+          <button class="btn-add">
+            <img
+              src="images/dots-vertical-thumb.svg"
+              alt="thumbnail options"
+            />
+          </button>
+        </div>
+      </a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
