@@ -9,8 +9,9 @@ nav {
   padding: 10px 2%;
   justify-content: space-between;
   background: #fff;
-  position: static;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 10;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
